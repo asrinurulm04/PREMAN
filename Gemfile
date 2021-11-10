@@ -22,6 +22,15 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem "bulma-rails", "~> 0.9.2"
+gem 'simple_form'
+gem 'devise'
+gem 'gravatar_image_tag'
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+gem "wysiwyg-rails"
+gem 'public_activity'
+gem 'wdm', '>= 0.1.0'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -39,6 +48,9 @@ group :development do
   # Display performance information such as SQL time and flame graphs for each request in your browser.
   # Can be configured to work on production as well see: https://github.com/MiniProfiler/rack-mini-profiler/blob/master/README.md
   gem 'rack-mini-profiler', '~> 2.0'
+  gem "better_errors"
+  gem 'guard'
+  gem 'guard-livereload', '~> 2.5', require: false
 end
 
 group :test do

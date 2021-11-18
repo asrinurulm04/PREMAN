@@ -29,7 +29,8 @@ gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem "wysiwyg-rails"
 gem 'public_activity'
 gem 'wdm', '>= 0.1.0'
-
+gem "font-awesome-rails"
+gem 'turbolinks', '~> 5'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
